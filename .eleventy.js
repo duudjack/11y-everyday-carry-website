@@ -10,7 +10,6 @@ module.exports = function(eleventyConfig) {
       </div>
     `;
   });
-  eleventyConfig.addPassthroughCopy("images");
   return {
     dir: {
       input: ".",
